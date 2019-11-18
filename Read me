@@ -1,0 +1,4 @@
+1.	Best use of Google Cloud Platform – HackSheffield 4.0 2018
+	Created a smart heater system that takes into account the current temperature, outside temperature, and the time users are at home and sleeping to reduce cost while maximizing comfort
+	Used android studio for the user interface, firebase database to make the system controllable through the internet, NodeJS running on Qualcomm dragon board to control the heater, and an Arduino which communicates through Wi-Fi with the NodeJS server to turn the heater on or off and to gather room temperature and humidity
+The C++ code for the arduino is in file WifiUDP_1.51_DHT_PIR_servercheck.ino
